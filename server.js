@@ -6,11 +6,12 @@ var app = express();
 app.use(morgan('combined'));
 
 var objects = {
-    var articleOne: {
+    articleOne : {
     title: 'Article One | Prakhar Patel',
     heading: 'Article-One',
     date: 'March 05, 2017',
-    content: `<p>This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.
+    content:
+        `<p>This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.
         </p>
         <p>This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.
         </p>
@@ -18,14 +19,14 @@ var objects = {
         </p>
         <p>This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.This is the content of article one.
         </p>`
-    },
-    var articleTwo: { 
+        },
+    articleTwo: { 
     title: 'Article Two | Prakhar Patel',
     heading: 'Article-Two',
     date: 'March 05, 2017',
     content: `<p>This is the content of article two.
     `},
-    var articleThree:{
+    articleThree:{
     title: 'Article Three | Prakhar Patel',
     heading: 'Article-Three',
     date: 'March 05, 2017',
